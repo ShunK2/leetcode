@@ -28,7 +28,7 @@ class Solution:
 
 solution = Solution()
 
-l1 = ListNode(2,ListNode(4,ListNode(3 ,ListNode(1))))
-l2 = ListNode(5,ListNode(7,ListNode(1)))
+l1 = ListNode(2,ListNode(4,ListNode(3))) #(2 -> 4 -> 3)
+l2 = ListNode(5,ListNode(6,ListNode(4))) #(5 -> 6 -> 4)
 
-print(solution.addTwoNumbers(l1, l2))
+print(solution.addTwoNumbers(l1, l2)) # 7 -> 0 -> 8
